@@ -34,6 +34,20 @@ Only one valid answer exists.
 Follow-up: Can you come up with an algorithm that is less than O(n2) time complexity?
 
 
+#My notes
+# brute force solution: Double for loop O(n^2)
+
+# the best solution would be to create a hashmap to store each indecies data so it wouldn't have to 
+# be iterated over again O(n)
+
+#pseudocode create a hashmap that stores value : index. Do not initialize hashmap to ensure each value 
+# is only iterated through once since we cant use the same index twice to reach our target. Do target - index
+# to find the value of the of the only number that could be used to sum to target then check the array for it. 
+#repeat.
+
+
+
+
 # solution
 
 class Solution:
