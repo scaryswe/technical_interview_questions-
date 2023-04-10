@@ -50,11 +50,23 @@ Follow-up: Can you come up with an algorithm that is less than O(n2) time comple
 
 # solution
 
-class Solution:
-    def twoSum(self, nums: List[int], target: int) -> List[int]:
+# class Solution:
+#     def twoSum(self, nums: List[int], target: int) -> List[int]:
         
-        d = {}
-        for i, j in enumerate(nums):
-            r = target - j
-            if r in d: return [d[r], i]
-            d[j] = i
+#         d = {}
+#         for i, j in enumerate(nums):
+#             r = target - j
+#             if r in d: return [d[r], i]
+#             d[j] = i
+
+#mysolution
+
+ class Solution:
+     def twoSum(self, nums: List[int], target: int) -> List[int]:
+
+        diff_dict = {}
+        for i in range(len(nums)):
+           diff = target - range 
+           if diff in diff_dict: return [diff_dict[r], i]
+           d[range] = i
+           
