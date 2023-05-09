@@ -18,3 +18,5 @@ def sum_even_numbers(numbers):
             total += num
     # Return the total sum of even numbers
     return total
+
+#  time complexity is O(n)

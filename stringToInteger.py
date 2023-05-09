@@ -97,3 +97,5 @@ class Solution:
         
         # Return the result multiplied by the sign
         return res * sign
+
+# Time complexity is O(n)

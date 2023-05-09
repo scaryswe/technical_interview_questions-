@@ -40,3 +40,5 @@ class Solution:
             ans+=first[i]
         # Return the common prefix found
         return ans
+    
+    # time complexity (number) is O(n * m) 

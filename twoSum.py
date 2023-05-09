@@ -70,3 +70,6 @@ Follow-up: Can you come up with an algorithm that is less than O(n2) time comple
            if diff in diff_dict: return [diff_dict[r], i]
            d[range] = i
            
+
+
+# Time complexity is O(n)

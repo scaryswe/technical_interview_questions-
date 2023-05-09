@@ -51,3 +51,4 @@ def isPalindrome(x):
 
 
 
+# time complexity is O(log n)

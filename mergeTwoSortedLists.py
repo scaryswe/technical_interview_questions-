@@ -26,3 +26,5 @@ class Solution:
             cur.next = list1 if list1 else list2
         # Return the head of the merged list
         return dummy.next
+ 
+#  time complexity is O(n+m)

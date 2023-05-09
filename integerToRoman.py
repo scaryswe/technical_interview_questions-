@@ -52,3 +52,6 @@ class Solution:
         # Retrieve the symbols for the corresponding place values
         # and concatenate them together to form the roman numeral string
         return M[num//1000]+C[num%1000//100]+X[num%1000%100//10]+I[num%1000%100%10]
+
+
+# time complexity is O(1)

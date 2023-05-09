@@ -55,3 +55,4 @@ class Solution:
         # If there are no more characters in the string and the stack is empty, the string is valid
         return not stack
 
+# time complexity = O(n) 

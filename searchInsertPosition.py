@@ -39,3 +39,5 @@ class Solution:
             else:  # if target is greater than the mid value
                 start = mid + 1  # update start to mid + 1 for searching the right half
         return end+1  # if target is not found, return the index where it should be inserted
+
+# time complexity is O(log n) 

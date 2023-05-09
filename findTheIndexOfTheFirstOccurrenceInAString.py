@@ -30,3 +30,4 @@ class Solution:
         return haystack.index(needle)
 
 
+# time complexity is O(n)

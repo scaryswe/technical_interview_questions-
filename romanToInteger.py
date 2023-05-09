@@ -110,6 +110,9 @@
 
         # So we add the last value and return the final ans
         return ans+rti[s[-1]]
+
+
+# Time complexity is O(n)
     
     # class Solution:
     # def romanToInt(self, s: str) -> int:

@@ -45,3 +45,5 @@ def fizzbuzz(number):
 
 # Call the function with an argument of 20
 fizzbuzz(20)
+
+# The time complexity is O(n)

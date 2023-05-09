@@ -14,3 +14,6 @@ class Solution:
             nums.remove(val)
         # return the length of the updated list after all occurrences of val are removed
         return len(nums)
+
+
+# time complexity is O(n^2) 

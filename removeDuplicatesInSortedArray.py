@@ -34,3 +34,5 @@ class Solution:
                 ans += 1
         # Return the length of the new array containing only unique elements
         return ans
+
+# Time complexity is O(n)

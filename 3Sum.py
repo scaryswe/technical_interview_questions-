@@ -77,3 +77,5 @@ def threeSum(self, nums: List[int]) -> List[List[int]]:
 				res.add(tuple(sorted([p[i],p[j],target])))
 
 	return res
+
+# time complexity O(n^2)
